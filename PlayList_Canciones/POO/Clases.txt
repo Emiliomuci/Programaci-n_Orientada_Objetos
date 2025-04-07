@@ -1,0 +1,55 @@
+Clases:
+
+Playlist
+Canción
+GéneroMusical
+Aplicación
+Atributos y Métodos:
+
+Clase Playlist:
+
+Atributos:
+
+número de canciones del playlist
+fecha de registro
+nombre del playlist
+identificador o clave
+lista de canciones
+Métodos:
+
+Constructor para inicializar la playlist con los atributos proporcionados.
+Método para agregar una canción a la playlist.
+Método para mostrar los datos de cada canción en la playlist.
+Clase Canción:
+
+Atributos:
+
+nombre de la canción
+duración
+género musical
+nombre del cantante
+lista de nombres de los autores
+Métodos:
+
+Constructor para inicializar una canción con los atributos proporcionados.
+
+Clase GéneroMusical:
+
+Atributos:
+
+nombre del género musical
+identificador del género musical
+Métodos:
+
+Constructor para inicializar un género musical con los atributos proporcionados.
+Clase Aplicación:
+
+Métodos:
+Método para mostrar la lista de playlists disponibles.
+Método para reproducir una playlist.
+Método para agregar una nueva playlist.
+Método para verificar si el usuario desea seguir usando la aplicación o terminar el programa.
+Relaciones entre los objetos:
+
+La clase Aplicación contiene instancias de las clases Playlist.
+Cada Playlist contiene una lista de instancias de la clase Canción.
